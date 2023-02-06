@@ -7,7 +7,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import pages.BaseTest;
-
+/*
 public class Listeners extends BaseTest implements ITestListener {
     ExtentTest test;
     ExtentReports extent = ExtentReporterNG.getReportObject();
@@ -29,3 +29,5 @@ public class Listeners extends BaseTest implements ITestListener {
         extentTest.set(test); //test id
     }
 }
+*/
+

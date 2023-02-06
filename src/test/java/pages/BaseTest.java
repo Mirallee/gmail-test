@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,6 +22,7 @@ import java.util.Properties;
 
 public class BaseTest {
     public WebDriver driver;
+    public LandingPage landingPage;
 
     public WebDriver initializeDriver() throws IOException {
         Properties prop = new Properties();
@@ -55,5 +58,17 @@ public class BaseTest {
         List<HashMap<String, String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, String>>>() {
         });
         return data;
+    }
+    @BeforeClass(alwaysRun = true)
+    public LandingPage launchApplication() throws IOException {
+        WebDriver driver = initializeDriver();
+        landingPage = new LandingPage(driver);
+        landingPage.goTo();
+        return landingPage;
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void tearDown() {
+        driver.close();
     }
 }

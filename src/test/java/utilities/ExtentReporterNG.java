@@ -2,7 +2,7 @@ package utilities;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
+/*
 public class ExtentReporterNG {
 
     public static ExtentReports getReportObject() {
@@ -18,3 +18,4 @@ public class ExtentReporterNG {
     }
 
 }
+*/
