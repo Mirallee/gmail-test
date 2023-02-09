@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f31116-a0b7-4518-8fe2-556d53b3c232" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GmailLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/GlobalData.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExtentReporterNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReporterNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Validations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GlobalData.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BaseTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValidTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +66,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="ValidTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.ValidTests" />
+    <configuration name="Validations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Validations" />
       <module name="GMail" />
       <extension name="coverage">
         <pattern>
@@ -73,9 +79,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GmailLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GMail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GmailLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Validations" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GMail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.Validations" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidTests" />
+        <item itemvalue="TestNG.GmailLoginTest" />
+        <item itemvalue="TestNG.Validations" />
+        <item itemvalue="Application.Validations" />
       </list>
     </recent_temporary>
   </component>

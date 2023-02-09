@@ -26,6 +26,8 @@ public class BaseTest {
 
     public WebDriver initializeDriver() throws IOException {
         Properties prop = new Properties();
+        //C:\Users\deny1\Desktop\GMail\src\main\resources\GlobalData.properties
+        //("user.dir") + "//src//main//java//resources//GlobalData.properties"
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//src//main//java//resources//GlobalData.properties");
         prop.load(fis);
         String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
@@ -60,7 +62,7 @@ public class BaseTest {
         return data;
     }
     @BeforeClass(alwaysRun = true)
-    public LandingPage launchApplication() throws IOException {
+    public LandingPage launchApplication() throws IOException{
         WebDriver driver = initializeDriver();
         landingPage = new LandingPage(driver);
         landingPage.goTo();
@@ -68,7 +70,8 @@ public class BaseTest {
     }
 
     @AfterClass(alwaysRun = true)
-    public void tearDown() {
+    public void tearDown()
+    {
         driver.close();
     }
 }

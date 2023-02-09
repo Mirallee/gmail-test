@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,10 +19,12 @@ public class LandingPage extends AbstractComponents {
     WebElement userEmail;
     @FindBy(css = "input[name='Passwd']")
     WebElement userPassword;
+    @FindBy(css = "div[class='OyEIQ uSvLId'] div span")
+    WebElement errorMessage;
 
     public void userLogin(String email, String password ){
-        userEmail.sendKeys(email);
-        userPassword.sendKeys(password);
+        userEmail.sendKeys(email + Keys.ENTER);
+        userPassword.sendKeys(password + Keys.ENTER);
 
     }
     public void goTo() {
@@ -29,6 +32,10 @@ public class LandingPage extends AbstractComponents {
                 "%2Fmail%2Fu%2F0%2F%3Fhl%3Dpl&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Fhl%3Dpl&hl=pl" +
                 "&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHcwVr2FfaUr2X-" +
                 "eLGDafa0oXfAmOXPbYX1BdYrf0W79qRSTxSYf4SG6bd2JRaBo67l-sdRBZg");
+    }
+    public String getErrorMessage() {
+        return errorMessage.getText();
+
     }
 
 }
