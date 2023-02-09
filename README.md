@@ -2,7 +2,7 @@
 
 Work to do:
 
-1. Login: Verify that a user can log in to their Gmail account with valid credentials.   --- Not done yet
+1. Login: Verify that a user can log in to their Gmail account with valid credentials.   --- Done - 09.02.2023   21:32
 
     *Test Case 1: Verify that the user can log in to their Gmail account with valid credentials.
     *Test Case 2: Verify that an error message is displayed if the user enters incorrect login credentials.
