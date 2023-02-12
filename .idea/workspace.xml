@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f31116-a0b7-4518-8fe2-556d53b3c232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GmailLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/GlobalData.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Validations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GlobalData.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BaseTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ValidTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GmailLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GmailLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/dataFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/dataFile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/deny1/Desktop/GMail&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GmailLoginTest">
     <configuration name="Validations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.Validations" />
       <module name="GMail" />
